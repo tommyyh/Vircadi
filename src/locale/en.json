@@ -1,0 +1,22 @@
+{
+  "general": {
+    "name": "Vircadi",
+    "email": "info@vircadienergy.com"
+  },
+  "nav": {
+    "links": {
+      "home": "Home",
+      "partners": "Our partners",
+      "product": "Products",
+      "contact": "Contact us"
+    }
+  },
+  "home": {
+    "landing": {
+      "sub": "Energy managment system ⚡",
+      "title": "<span>Stop</span> Wasting Energy With Real-Time Power Control",
+      "text": "Our real-time energy management system maximizes your investment. Save money, gain independence, and optimize your energy use with intelligent automation.",
+      "cta": "Save energy today"
+    }
+  }
+}

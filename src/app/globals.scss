@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  // Color theme
+  --primary: #fff;
+  --second: #000;
+  --accent1: #FE580C;
+
+  --text: #31394D;
+  --title: #2B2A35;
+  
+  --nav-links: #414154;
+  --nav-links-hover: #616177;
+  
+  // Padding
+  --padding: 0.875rem;
+  
+  // Sizing
+  --letter-1: -0.0125rem;
+  --letter-2: -0.01875rem;
+  --letter-2-5: -0.02175rem;
+  --letter-3: -0.02475rem;
+
+  // Transitions
+  --transition: 250ms ease;
+  --transition2: 320ms ease;
+  --cubic1: 350ms cubic-bezier(0.2, 0.6, 0.3, 1);
+  --cubic2: 440ms cubic-bezier(0.2, 0.6, 0.3, 1);
+  --transition-slow-fast: 310ms cubic-bezier(0.64, 0.36, 0, 0.96);
+  --transition-fast: 120ms ease;
+}
+
+// General resets
+body {
+  background: var(--primary);
+  color: var(--second);
+
+  // Dev only
+  margin-bottom: 4000px;
+}
+
+
+
+// Desktop view
+@media all and (min-width: 1025px) {
+  :root {
+    // Padding
+    --content-width: 1025px; /* Your fixed content width */
+    --viewport-excess: max(0px, 100vw - var(--content-width)); /* Calculate excess width */
+    --viewport-half-excess: calc(var(--viewport-excess) / 2); /* Divide excess by 2 for both sides */
+    --padding: var(--viewport-half-excess); /* Padding on each side */
+  }
+
+}
+
+// Tablet
+@media (min-width: 700px) and (max-width: 1024px) {
+  html {
+    font-size: 25px;
+  }
+  
+}

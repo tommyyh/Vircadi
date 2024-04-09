@@ -1,0 +1,4 @@
+// Functions
+@function secondVariation($opacity) {
+  @return rgb(from var(--second) r g b / $opacity);
+}
