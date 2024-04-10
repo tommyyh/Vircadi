@@ -2,14 +2,9 @@ import React from 'react';
 import style from './style.module.scss';
 import { Link } from '@/navigation';
 
-type PropsType = {
-  title: string;
-  href: string;
-};
-
-const Button = ({ title, href }: PropsType) => {
+const Button = ({ title, href, ...props }: any) => {
   return (
-    <Link className={style.button} href={href}>
+    <Link className={style.button} href={href} {...props}>
       {title}
     </Link>
   );

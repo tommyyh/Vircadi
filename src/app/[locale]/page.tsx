@@ -1,3 +1,5 @@
+import Contact from '@/components/Home/Contact/Contact';
+import Info from '@/components/Home/Info/Info';
 import Landing from '@/components/Home/Landing/Landing';
 import Product from '@/components/Home/Product/Product';
 import Partners from '@/components/Partners/Partners';
@@ -11,6 +13,8 @@ const Home = async () => {
       <Landing l={l} />
       <Partners l={l} />
       <Product l={l} />
+      <Info l={l} />
+      <Contact l={l} />
     </>
   );
 };
