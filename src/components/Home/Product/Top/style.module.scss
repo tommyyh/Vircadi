@@ -1,0 +1,49 @@
+.top {
+  display: grid;
+  grid-template-columns: 49% 46.75%;
+  justify-content: space-between;
+
+  h4 {
+    font-size: 1.01rem;
+    font-weight: 500;
+    color: var(--accent1);
+    letter-spacing: var(--letter-3);
+  }
+
+  h2 {
+    margin: 1.21rem 0 0 0;
+
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: var(--letter-3);
+    color: var(--title);
+  }
+
+  p {
+    margin: 1.4rem 0 0 0;
+    
+    font-size: 1.02rem;
+    font-weight: 300;
+    color: var(--text);
+    letter-spacing: var(--letter-3);
+    line-height: 189%;
+  }
+}
+
+// Image
+.imgCont1 {
+  width: 30.4rem;
+  height: 24.5rem;
+  position: relative;
+
+  img {
+    object-fit: cover;
+    border-radius: 0.81rem;
+    border-bottom-left-radius: 0;
+  }
+}
+
+.content {
+  padding: 3.6rem 0 0 0;
+}

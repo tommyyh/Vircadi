@@ -17,6 +17,16 @@
       "title": "<span>Stop</span> Wasting Energy With Real-Time Power Control",
       "text": "Our real-time energy management system maximizes your investment. Save money, gain independence, and optimize your energy use with intelligent automation.",
       "cta": "Save energy today"
+    },
+    "partners": {
+      "title": "Our trusted partners"
+    },
+    "product": {
+      "sub": "Our product",
+      "title": "<span>Vircadi’s Energy</span> Management System",
+      "text1": "Vircadi revolutionizes energy management by intelligently storing energy while autonomously managing energy for consumption, selling and buying electricity at optimal prices. This innovative solution leverages advanced AI algorithms",
+      "text2": "and ensures that energy is consumed from storage, and potentially sold, during peak demand periods, typically at night, rather than during daytime hours when prices are lower. This seamless automation maximizes financial returns for our consumers without requiring manual intervention. Vircadi is offering an unparalleled capability to store energy and exploit market dynamics for the best possible outcomes, enhancing both efficiency and profitability for our users.",
+      "cta": "Get started today"
     }
   }
 }

@@ -1,0 +1,40 @@
+.product {
+  padding: 13rem var(--padding) 0 var(--padding);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 3.3rem;
+  margin: 7rem 0 0 0;
+
+  border: 0.11rem solid var(--accent1);
+  color: var(--accent1);
+  letter-spacing: var(--letter-2-5);
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 10rem;
+  border-bottom-left-radius: 0;
+  transition: var(--transition);
+
+  svg {
+    margin: 0 0 0 0.3rem;
+    transform: scale(0.89);
+
+    path {
+      transition: var(--transition);
+    }
+  }
+
+  &:hover {
+    background: var(--accent1);
+    color: var(--primary);
+
+    svg path {
+      fill: var(--primary);
+    }
+  }
+}
