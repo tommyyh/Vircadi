@@ -55,3 +55,91 @@
     }
   }
 }
+
+
+
+// Mobile
+@media all and (max-width: 1024px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: 0 var(--padding);
+    height: 4.82rem;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  // Brand section
+  .brand {
+    display: flex;
+    align-items: center;
+  
+    .mail {
+      display: none;
+    }
+
+    svg {
+      transform: scale(0.83);
+      margin: 0 0 0 -0.28rem;
+    }
+  }
+  
+  // Navigation section
+  .navigation {
+    display: none;
+  }
+
+
+
+  // Menu
+  .menuCont {
+    display: flex;
+    align-items: center;
+    
+    position: fixed;
+    z-index: 500;
+    right: var(--padding);
+    
+    height: 6.6rem;
+  }
+
+  .menu {
+    margin: -4px 0 0 0;
+    padding: 0.9rem 0 0.9rem 0.9rem;
+  }
+
+  .line1, .line2 {
+    width: 1.93rem;
+    height: 1px;
+    position: relative;
+
+    background: #282828;
+    transition: transform 250ms cubic-bezier(.2,.6,.3,1),width 250ms cubic-bezier(.2,.6,.3,1);
+  }
+
+  .line2 {
+    margin: 0.42rem 0 0 0;
+  }
+
+  // Open
+  .menuOpen {
+    & .line1 {
+      width: 1.5rem;
+
+      transform: rotate(-135deg);
+    }
+
+    & .line2 {
+      margin: -1px 0 0 0;
+      width: 1.5rem;
+
+      transform: rotate(135deg);
+    }
+  }
+
+}

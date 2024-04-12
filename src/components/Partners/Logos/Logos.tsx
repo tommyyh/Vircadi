@@ -7,20 +7,20 @@ const Logos = () => {
   return (
     <div className={style.logos}>
       <Logo src={logoPng} />
+      <Logo src={logoPng} customClass={style.second} />
       <Logo src={logoPng} />
+      <Logo src={logoPng} customClass={style.second} />
       <Logo src={logoPng} />
+      <Logo src={logoPng} customClass={style.second} />
       <Logo src={logoPng} />
-      <Logo src={logoPng} />
-      <Logo src={logoPng} />
-      <Logo src={logoPng} />
-      <Logo src={logoPng} />
+      <Logo src={logoPng} customClass={style.second} />
     </div>
   );
 };
 
-const Logo = ({ src }: any) => {
+const Logo = ({ src, customClass }: any) => {
   return (
-    <div className={style.cont}>
+    <div className={`${style.cont} ${customClass}`}>
       <div className={style.logo}>
         <Image src={src} alt="partner" fill />
       </div>

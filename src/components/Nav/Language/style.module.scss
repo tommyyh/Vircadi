@@ -60,3 +60,71 @@
     transition-delay: 0.07s;
   }
 }
+
+@media all and (max-width: 1024px) {
+  .language {
+    display: flex;
+    margin: 1.5rem 0 0 -2.6rem;
+    width: 2.05rem;
+    height: 1.25rem;
+    position: relative;
+  
+    cursor: pointer;
+  
+    // On hover show tooltip
+    &:hover {
+      .tooltip::before {
+        opacity: 1;
+      }
+  
+      .lastImage {
+        opacity: 0;
+      }
+  
+    }
+  }
+  
+  .flag {
+    position: relative;
+    height: 1.55rem;
+    min-width: 2.4rem;
+    overflow: hidden;
+  
+    img {
+      transition: var(--transition);
+    }
+  }
+  
+  .tooltip {
+    position: absolute;
+    margin: 0.4rem 0 0 0;
+    padding: 0.49rem 1.05rem 0.45rem 1.05rem;
+    left: 50%;
+    transform: translateX(-50%) scale(0.81);
+  
+    font-size: 0.8rem;
+    font-weight: 400;
+    z-index: 600;
+    white-space: nowrap;
+    color: var(--primary);
+    pointer-events: none;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      
+      backdrop-filter: blur(10px);
+      background: #1d1d2c;
+      border-radius: 0.25rem;
+      transition: opacity 120ms ease;
+      opacity: 0;
+      transition-delay: 0.07s;
+    }
+  }
+
+}

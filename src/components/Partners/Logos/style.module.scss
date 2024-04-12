@@ -24,3 +24,40 @@
   width: 74%;
   height: 7.15rem;
 }
+
+
+// Mobile
+@media all and (max-width: 1024px) {
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50%);
+    justify-content: space-between;
+  
+    margin: 1.8rem 0 0 0.6rem;
+  }
+  
+  // Logo
+  .logo {
+    height: 1.15rem;
+    width: 100%;
+    position: relative;
+    
+    img {
+      opacity: 0.8;
+    }
+  }
+  
+  .cont {
+    display: flex;
+    align-items: center;
+    
+    width: 61%;
+    height: 7.15rem;
+    margin: 0 0 0 1.2rem;
+  }
+  
+  .second {
+    margin: 0 0 0 2rem;
+  }
+
+}

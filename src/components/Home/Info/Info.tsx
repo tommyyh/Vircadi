@@ -12,7 +12,7 @@ const Info = ({ l }: PropsType) => {
 
   return (
     <section className={style.info}>
-      <div>
+      <div className={style.content}>
         <h4>{l(`${lang}.sub`)}</h4>
         <h2>{l(`${lang}.title`)}</h2>
 

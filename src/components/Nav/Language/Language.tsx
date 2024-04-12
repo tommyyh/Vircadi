@@ -9,7 +9,11 @@ import { usePathname } from 'next/navigation';
 import { useLocale } from 'next-intl';
 import { useRouter } from 'next/navigation';
 
-const Language = () => {
+type PropsType = {
+  isDesktop?: boolean;
+};
+
+const Language = ({ isDesktop }: PropsType) => {
   const { push } = useRouter();
   const pathname = usePathname();
   const pathnameExtracted = pathname
@@ -19,7 +23,7 @@ const Language = () => {
   const localeMatch = locale === 'en';
   const redirectLocale = localeMatch ? 'no' : 'en';
 
-  return (
+  return isDesktop ? (
     <div
       onClick={() => push(`/${redirectLocale}/${pathnameExtracted}`)}
       className={style.language}
@@ -39,6 +43,23 @@ const Language = () => {
       </div>
 
       <div className={style.tooltip}>{localeMatch ? 'English' : 'Norsky'}</div>
+    </div>
+  ) : (
+    <div className={style.language}>
+      <div
+        className={style.flag}
+        onClick={() => push(`/en/${pathnameExtracted}`)}
+      >
+        <Image src={UK} alt={'English'} fill />
+      </div>
+
+      <div
+        className={style.flag}
+        onClick={() => push(`/no/${pathnameExtracted}`)}
+        style={{ margin: '0 0 0 0.7rem' }}
+      >
+        <Image src={NO} alt={'Norsky'} fill />
+      </div>
     </div>
   );
 };

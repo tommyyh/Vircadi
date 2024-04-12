@@ -13,3 +13,24 @@
     border-radius: 10rem;
   }
 }
+
+
+// Mobile
+@media all and (max-width: 1024px) {
+  .partners {
+    padding: 6.2rem var(--padding) 0 var(--padding);
+  
+    h2 {
+      width: fit-content;
+      padding: 0.522rem 1.2rem;
+  
+      font-size: 0.76rem;
+      font-weight: 400;
+      color: var(--partners-title);
+      background: var(--primary);
+      box-shadow: 0 4px 2.8rem rgb(0, 0, 0, 0.12);
+      border-radius: 10rem;
+    }
+  }
+  
+}
