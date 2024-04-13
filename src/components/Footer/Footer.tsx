@@ -3,7 +3,6 @@ import style from './style.module.scss';
 import { getTranslations } from 'next-intl/server';
 import Logo from '@/public/nav/logo.svg';
 import { Link } from '@/navigation';
-import Language from './Language/Language';
 import CheckSvg from '@/public/icons/check.svg';
 
 const Footer = async () => {
