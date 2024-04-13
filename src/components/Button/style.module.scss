@@ -10,6 +10,11 @@
   background: var(--accent1);
   border-radius: 10rem;
   text-decoration: none;
+  transition: 300ms ease;
+
+  &:hover {
+    opacity: 0.67;
+  }
 }
 
 // Mobile
