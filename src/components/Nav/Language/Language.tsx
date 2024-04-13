@@ -30,12 +30,16 @@ const Language = () => {
             src={localeMatch ? UK : NO}
             alt={localeMatch ? 'English' : 'Norsky'}
             fill
+            placeholder="blur"
+            sizes="100vw"
           />
           <Image
             src={localeMatch ? NO : UK}
             alt={localeMatch ? 'English' : 'Norsky'}
             fill
             className={style.lastImage}
+            placeholder="blur"
+            sizes="100vw"
           />
         </div>
 
@@ -50,7 +54,13 @@ const Language = () => {
           className={style.flag}
           onClick={() => push(`/en/${pathnameExtracted}`)}
         >
-          <Image src={UK} alt={'English'} fill />
+          <Image
+            src={UK}
+            placeholder="blur"
+            sizes="100vw"
+            alt={'English'}
+            fill
+          />
         </div>
 
         <div
@@ -58,7 +68,13 @@ const Language = () => {
           onClick={() => push(`/no/${pathnameExtracted}`)}
           style={{ margin: '0 0 0 0.7rem' }}
         >
-          <Image src={NO} alt={'Norsky'} fill />
+          <Image
+            src={NO}
+            alt={'Norsky'}
+            fill
+            placeholder="blur"
+            sizes="100vw"
+          />
         </div>
       </div>
     </>

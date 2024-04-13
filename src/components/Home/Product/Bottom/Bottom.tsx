@@ -17,7 +17,13 @@ const Bottom = ({ l }: PropsType) => {
       </div>
 
       <div className={style.imgCont1}>
-        <Image src={Product2Png} alt="Product showcase" fill />
+        <Image
+          placeholder="blur"
+          src={Product2Png}
+          alt="Product showcase"
+          fill
+          sizes="100vw"
+        />
       </div>
     </div>
   );

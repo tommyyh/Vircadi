@@ -15,7 +15,13 @@ const Contact = ({ l }: PropsType) => {
     <div className={style.cont}>
       <div className={style.imgCont}>
         <div className={style.img}>
-          <Image src={solarPng} alt="Solar panels" fill sizes="100vw" />
+          <Image
+            placeholder="blur"
+            src={solarPng}
+            alt="Solar panels"
+            fill
+            sizes="100vw"
+          />
         </div>
       </div>
 

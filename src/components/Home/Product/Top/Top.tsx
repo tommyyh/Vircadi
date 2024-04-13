@@ -13,7 +13,13 @@ const Top = ({ l }: PropsType) => {
   return (
     <div className={style.top}>
       <div className={style.imgCont1}>
-        <Image src={Product1Png} alt="Product showcase" fill />
+        <Image
+          placeholder="blur"
+          src={Product1Png}
+          alt="Product showcase"
+          fill
+          sizes="100vw"
+        />
       </div>
 
       <div className={style.content}>

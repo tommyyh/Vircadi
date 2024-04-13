@@ -1,11 +1,87 @@
 {
-  "welcome": {
-    "welcome": "Vircadi"
+  "general": {
+    "name": "Vircadi",
+    "email": "info@vircadienergy.com",
+    "tel": "+475343573853"
   },
   "nav": {
-
+    "links": {
+      "home": "Hjem",
+      "partners": "Våre samarbeidspartnere",
+      "product": "Vårt produkt",
+      "contact": "Kontakt oss"
+    }
   },
   "home": {
-
+    "landing": {
+      "sub": "Energistyringssystem ⚡",
+      "title": "<span>Stopp</span> energisløsing med sanntids strømkontroll",
+      "text": "Vårt sanntids energistyringssystem maksimerer din investering. Spar penger, bli mer uavhengig og optimaliser energiforbruket ditt med intelligent automasjon.",
+      "cta": "Spar energi i dag"
+    },
+    "partners": {
+      "title": "Våre samarbeidspartnere"
+    },
+    "product": {
+      "sub": "Vårt produkt",
+      "title": "<span>Vircadis energi</span>styringssystem",
+      "text1": "Vircadi revolusjonerer energistyring ved intelligent å lagre energi samtidig som det styrer energien autonomt for forbruk, salg og kjøp av strøm til optimale priser. Denne innovative løsningen benytter seg av avanserte AI-algoritmer",
+      "text2": "og sørger for at energi forbrukes fra lagring, og potensielt selges, i perioder med topp etterspørsel, vanligvis om natten, i stedet for på dagtid når prisene er lavere. Denne sømløse automatiseringen maksimerer den finansielle avkastningen for forbrukerne våre uten behov for manuell inngripen. Vircadi tilbyr en enestående mulighet til å lagre energi og utnytte markedsdynamikken for de best mulige resultatene, noe som forbedrer både effektivitet og lønnsomhet for brukerne våre.",
+      "cta": "Kom i gang i dag"
+    },
+    "info": {
+      "sub": "Systemkompatibilitet",
+      "title": "Vårt styringssystem støtter forskjellige enheter",
+      "info1": {
+        "1": "Offentlige nett",
+        "2": "Batterilagring",
+        "3": "IoT smarthjem"
+      },
+      "info2": {
+        "1": "V2X lading av elbil",
+        "2": "Sol-/PV-inverter",
+        "3": "og mer"
+      }
+    },
+    "contact": {
+      "sub": "Ta kontakt i dag",
+      "title": "Stopp energisløsing med vår løsning i dag",
+      "text": "Vårt sanntids energistyringssystem maksimerer din investering. Spar penger, bli mer uavhengig og optimaliser energiforbruket ditt med intelligent automasjon.",
+      "cta": "Spar energi i dag"
+    }
+  },
+  "contact": {
+    "title": "Kontakt oss",
+    "form": {
+      "name": "Fullt navn",
+      "firstName": "Fornavn",
+      "lastName": "Etternavn",
+      "email": "E-postadresse",
+      "emailPlaceholder": "E-postadresse",
+      "msg": "Melding",
+      "msgPlaceholder": "Meldingen din",
+      "send": "Send melding",
+      "back": "Gå tilbake",
+      "error": "Noe gikk galt. Prøv på nytt eller kontakt oss på info@vircadienergy.com",
+      "success": "Meldingen din ble sendt. Vi tar kontakt med deg innen kort.",
+      "loading": "Sender..."
+    }
+  },
+  "footer": {
+    "links": {
+      "1": "Hjem",
+      "2": "Våre samarbeidspartnere",
+      "3": "Vårt produkt",
+      "4": "Kontakt oss"
+    },
+    "info": {
+      "email": "info@vircadienergy.com",
+      "tel": "Tlf: +47 534357 3853"
+    },
+    "newsletter": {
+      "title": "Nyhetsbrev",
+      "email": "E-postadresse"
+    },
+    "copyright": "© Copyright 2024 Vircadi. Alle rettigheter forbeholdt"
   }
 }

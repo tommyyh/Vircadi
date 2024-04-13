@@ -31,7 +31,13 @@ const Landing = ({ l }: PropsType) => {
       </div>
 
       <div className={style.img}>
-        <Image src={LandingPng} fill alt="Energy" sizes="100vw" />
+        <Image
+          placeholder="blur"
+          src={LandingPng}
+          fill
+          alt="Energy"
+          sizes="100vw"
+        />
       </div>
 
       <p className={style.textMobile}>{l(`${lang}.text`)}</p>

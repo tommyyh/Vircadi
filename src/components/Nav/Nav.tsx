@@ -62,7 +62,7 @@ const Nav = () => {
         </div>
       </nav>
 
-      <Menu l={l} menuOpen={menuOpen} />
+      <Menu l={l} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
     </>
   );
 };

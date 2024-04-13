@@ -64,7 +64,7 @@
       "back": "Go back",
       "error": "Something went wrong, please try again or contact us info@vircadienergy.com",
       "success": "Your message was sent successfully, we'll get back to you shortly.",
-      "loading": "Sending message..."
+      "loading": "Sending..."
     }
   },
   "footer": {

@@ -31,7 +31,13 @@ const Info = ({ l }: PropsType) => {
       </div>
 
       <div className={style.img}>
-        <Image src={infoPng} alt="Info graph" fill />
+        <Image
+          src={infoPng}
+          alt="Info graph"
+          fill
+          sizes="100vw"
+          placeholder="blur"
+        />
       </div>
     </section>
   );
