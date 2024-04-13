@@ -28,14 +28,14 @@ const Language = () => {
         <div className={style.flag}>
           <Image
             src={localeMatch ? UK : NO}
-            alt={localeMatch ? 'English' : 'Norsky'}
+            alt={localeMatch ? 'English' : 'Norsk'}
             fill
             placeholder="blur"
             sizes="100vw"
           />
           <Image
             src={localeMatch ? NO : UK}
-            alt={localeMatch ? 'English' : 'Norsky'}
+            alt={localeMatch ? 'English' : 'Norsk'}
             fill
             className={style.lastImage}
             placeholder="blur"
@@ -43,9 +43,7 @@ const Language = () => {
           />
         </div>
 
-        <div className={style.tooltip}>
-          {localeMatch ? 'English' : 'Norsky'}
-        </div>
+        <div className={style.tooltip}>{localeMatch ? 'English' : 'Norsk'}</div>
       </div>
 
       {/* Mobile */}
@@ -68,13 +66,7 @@ const Language = () => {
           onClick={() => push(`/no/${pathnameExtracted}`)}
           style={{ margin: '0 0 0 0.7rem' }}
         >
-          <Image
-            src={NO}
-            alt={'Norsky'}
-            fill
-            placeholder="blur"
-            sizes="100vw"
-          />
+          <Image src={NO} alt={'Norsk'} fill placeholder="blur" sizes="100vw" />
         </div>
       </div>
     </>
