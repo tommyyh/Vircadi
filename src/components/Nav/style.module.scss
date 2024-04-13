@@ -18,12 +18,20 @@
   align-items: center;
 
   .mail {
-    margin: 0.3rem 0 0 1.3rem;
+    margin: 0 0 0 1.75rem;
 
     font-size: 0.75rem;
     font-weight: 300;
     color: var(--text);
     text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  svg {
+    transform: scale(1.07);
   }
 }
 
