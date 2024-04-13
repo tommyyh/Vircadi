@@ -6,10 +6,9 @@ import Language from '../Language/Language';
 type PropsType = {
   l: any;
   menuOpen: boolean;
-  isDesktop: boolean;
 };
 
-const Menu = ({ l, menuOpen, isDesktop }: PropsType) => {
+const Menu = ({ l, menuOpen }: PropsType) => {
   const lang = 'nav';
 
   return (
@@ -34,7 +33,7 @@ const Menu = ({ l, menuOpen, isDesktop }: PropsType) => {
       </ul>
 
       <div>
-        <Language isDesktop={isDesktop} />
+        <Language />
       </div>
     </div>
   );

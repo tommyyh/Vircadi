@@ -9,11 +9,7 @@ import { usePathname } from 'next/navigation';
 import { useLocale } from 'next-intl';
 import { useRouter } from 'next/navigation';
 
-type PropsType = {
-  isDesktop?: boolean;
-};
-
-const Language = ({ isDesktop }: PropsType) => {
+const Language = () => {
   const { push } = useRouter();
   const pathname = usePathname();
   const pathnameExtracted = pathname
@@ -23,44 +19,49 @@ const Language = ({ isDesktop }: PropsType) => {
   const localeMatch = locale === 'en';
   const redirectLocale = localeMatch ? 'no' : 'en';
 
-  return isDesktop ? (
-    <div
-      onClick={() => push(`/${redirectLocale}/${pathnameExtracted}`)}
-      className={style.language}
-    >
-      <div className={style.flag}>
-        <Image
-          src={localeMatch ? UK : NO}
-          alt={localeMatch ? 'English' : 'Norsky'}
-          fill
-        />
-        <Image
-          src={localeMatch ? NO : UK}
-          alt={localeMatch ? 'English' : 'Norsky'}
-          fill
-          className={style.lastImage}
-        />
+  return (
+    <>
+      <div
+        onClick={() => push(`/${redirectLocale}/${pathnameExtracted}`)}
+        className={`${style.language} ${style.languageDesktop}`}
+      >
+        <div className={style.flag}>
+          <Image
+            src={localeMatch ? UK : NO}
+            alt={localeMatch ? 'English' : 'Norsky'}
+            fill
+          />
+          <Image
+            src={localeMatch ? NO : UK}
+            alt={localeMatch ? 'English' : 'Norsky'}
+            fill
+            className={style.lastImage}
+          />
+        </div>
+
+        <div className={style.tooltip}>
+          {localeMatch ? 'English' : 'Norsky'}
+        </div>
       </div>
 
-      <div className={style.tooltip}>{localeMatch ? 'English' : 'Norsky'}</div>
-    </div>
-  ) : (
-    <div className={style.language}>
-      <div
-        className={style.flag}
-        onClick={() => push(`/en/${pathnameExtracted}`)}
-      >
-        <Image src={UK} alt={'English'} fill />
-      </div>
+      {/* Mobile */}
+      <div className={`${style.language} ${style.languageMobile}`}>
+        <div
+          className={style.flag}
+          onClick={() => push(`/en/${pathnameExtracted}`)}
+        >
+          <Image src={UK} alt={'English'} fill />
+        </div>
 
-      <div
-        className={style.flag}
-        onClick={() => push(`/no/${pathnameExtracted}`)}
-        style={{ margin: '0 0 0 0.7rem' }}
-      >
-        <Image src={NO} alt={'Norsky'} fill />
+        <div
+          className={style.flag}
+          onClick={() => push(`/no/${pathnameExtracted}`)}
+          style={{ margin: '0 0 0 0.7rem' }}
+        >
+          <Image src={NO} alt={'Norsky'} fill />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

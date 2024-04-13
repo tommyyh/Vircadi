@@ -24,10 +24,10 @@ const Footer = async () => {
             <Link href={'/'}>{l(`${lang}.links.1`)}</Link>
           </li>
           <li>
-            <Link href={'/'}>{l(`${lang}.links.2`)}</Link>
+            <Link href={'/#partners'}>{l(`${lang}.links.2`)}</Link>
           </li>
           <li>
-            <Link href={'/'}>{l(`${lang}.links.3`)}</Link>
+            <Link href={'/#product'}>{l(`${lang}.links.3`)}</Link>
           </li>
           <li>
             <Link href={'/contact'}>{l(`${lang}.links.4`)}</Link>

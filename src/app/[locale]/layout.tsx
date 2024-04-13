@@ -9,6 +9,7 @@ import pick from 'lodash/pick';
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['200', '300', '400', '500', '600', '700', '800', '900', '100'],
+  variable: '--poppins',
 });
 
 export const metadata: Metadata = {
@@ -25,7 +26,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={`${poppins.className} ${poppins.variable}`}>
         <NextIntlClientProvider messages={messages}>
           <Nav />
         </NextIntlClientProvider>

@@ -10,7 +10,7 @@ const Partners = ({ l }: PropsType) => {
   const lang = 'partners';
 
   return (
-    <section className={style.partners}>
+    <section className={style.partners} id="partners">
       <h2>{l(`${lang}.title`)}</h2>
 
       <Logos />

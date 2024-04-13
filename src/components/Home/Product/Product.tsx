@@ -11,7 +11,7 @@ type PropsType = {
 
 const Product = ({ l }: PropsType) => {
   return (
-    <main className={style.product}>
+    <main className={style.product} id="product">
       <Top l={l} />
       <Bottom l={l} />
 

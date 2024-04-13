@@ -9,6 +9,7 @@
   --primary: #fff;
   --second: #000;
   --accent1: #FE580C;
+  --accent1-hover: rgb(252, 116, 53);
 
   --text: #31394D;
   --title: #1e1d23;
@@ -26,6 +27,7 @@
   --letter-2: -0.01875rem;
   --letter-2-5: -0.02175rem;
   --letter-3: -0.02475rem;
+  --letter-3-5: -0.03rem;
 
   // Transitions
   --transition: 250ms ease;
@@ -45,6 +47,10 @@ body {
   // margin-bottom: 4000px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 
 // Desktop view
@@ -57,6 +63,9 @@ body {
     --padding: var(--viewport-half-excess); /* Padding on each side */
   }
 
+  button {
+    transition: 300ms ease;
+  }
 }
 
 // Tablet

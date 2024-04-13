@@ -1,0 +1,8 @@
+.pending {
+  cursor: not-allowed !important;
+  opacity: 0.4;
+
+  &:hover {
+    opacity: 0.4 !important;
+  }
+}

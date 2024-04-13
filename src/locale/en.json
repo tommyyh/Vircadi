@@ -8,7 +8,7 @@
     "links": {
       "home": "Home",
       "partners": "Our partners",
-      "product": "Products",
+      "product": "Our product",
       "contact": "Contact us"
     }
   },
@@ -50,11 +50,28 @@
       "cta": "Save energy today"
     }
   },
+  "contact": {
+    "title": "Contact us",
+    "form": {
+      "name": "Full name",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email address",
+      "emailPlaceholder": "Email address",
+      "msg": "Message",
+      "msgPlaceholder": "Your message",
+      "send": "Send message",
+      "back": "Go back",
+      "error": "Something went wrong, please try again or contact us info@vircadienergy.com",
+      "success": "Your message was sent successfully, we'll get back to you shortly.",
+      "loading": "Sending message..."
+    }
+  },
   "footer": {
     "links": {
       "1": "Home",
       "2": "Our partners",
-      "3": "Products",
+      "3": "Our product",
       "4": "Contact us"
     },
     "info": {

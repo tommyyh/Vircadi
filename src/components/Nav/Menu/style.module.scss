@@ -43,3 +43,9 @@
   transform: translateY(0);
   opacity: 1;
 }
+
+@media all and (min-width: 1025px) {
+  .menu {
+    display: none;
+  }
+}
