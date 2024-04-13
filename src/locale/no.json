@@ -63,7 +63,7 @@
       "send": "Send melding",
       "back": "Gå tilbake",
       "error": "Noe gikk galt. Prøv på nytt eller kontakt oss på info@vircadienergy.com",
-      "success": "Meldingen din ble sendt. Vi tar kontakt med deg innen kort.",
+      "success": "Meldingen din ble sendt. Vi tar kontakt med deg innen kort tid.",
       "loading": "Sender..."
     }
   },
