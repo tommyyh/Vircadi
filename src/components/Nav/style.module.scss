@@ -41,9 +41,25 @@
     list-style-type: none;
     
     a {
+      position: relative;
       color: var(--nav-links);
       text-decoration: none;
       transition: var(--transition);
+
+      &:hover::before {
+        width: 100%;
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -0.1rem;
+        width: 0%;
+        height: 0.01rem;
+        background: var(--nav-links);
+        transition: ease 300ms;
+      }
     }
 
     &:hover a {
