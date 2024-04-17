@@ -1,6 +1,6 @@
 .contact {
   display: grid;
-  grid-template-columns: 38% 50%;
+  grid-template-columns: 45% 50%;
   justify-content: space-between;
 
   padding: 7.8rem var(--padding) 0 var(--padding);
@@ -116,4 +116,15 @@
     }
   }
 
+}
+
+
+
+// Tablet
+@media (min-width: 700px) and (max-width: 1024px) {
+  .img {
+    aspect-ratio: 1339/490;
+    height: auto;
+  }
+  
 }

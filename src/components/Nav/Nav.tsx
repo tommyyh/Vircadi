@@ -33,9 +33,9 @@ const Nav = () => {
             <li>
               <Link href={'/'}>{l(`${lang}.links.home`)}</Link>
             </li>
-            <li>
+            {/* <li>
               <Link href={'/#partners'}>{l(`${lang}.links.partners`)}</Link>
-            </li>
+            </li> */}
             <li>
               <Link href={'/#product'}>{l(`${lang}.links.product`)}</Link>
             </li>

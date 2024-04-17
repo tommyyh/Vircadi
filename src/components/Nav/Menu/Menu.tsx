@@ -28,11 +28,11 @@ const Menu = ({ l, menuOpen, setMenuOpen }: PropsType) => {
             {l(`${lang}.links.home`)}
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href={'/#partners'} onClick={closeMenu}>
             {l(`${lang}.links.partners`)}
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link href={'/#product'} onClick={closeMenu}>
             {l(`${lang}.links.product`)}

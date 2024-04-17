@@ -15,8 +15,8 @@
   "home": {
     "landing": {
       "sub": "Energistyringssystem ⚡",
-      "title": "<span>Stopp</span> energisløsing med sanntids strømkontroll",
-      "text": "Vårt sanntids energistyringssystem maksimerer din investering. Spar penger, bli mer uavhengig og optimaliser energiforbruket ditt med intelligent automasjon.",
+      "title": "<span>Stopp </span> energisløsing med umiddelbar strømstyring.",
+      "text": "Vårt system for umiddelbar energistyring maksimerer din investering. Spar penger, oppnå uavhengighet og optimaliser din energibruk med intelligent automatisering.",
       "cta": "Spar energi i dag"
     },
     "partners": {
@@ -25,8 +25,8 @@
     "product": {
       "sub": "Vårt produkt",
       "title": "<span>Vircadi's energi</span>styringssystem",
-      "text1": "Vircadi revolusjonerer energistyring ved intelligent å lagre energi samtidig som det styrer energien autonomt for forbruk, salg og kjøp av strøm til optimale priser. Denne innovative løsningen benytter seg av avanserte AI-algoritmer",
-      "text2": "for å sørge seg at energien forbrukes fra lagring, og potensielt selges, i perioder med topp etterspørsel, vanligvis om natten, i stedet for på dagtid når prisene er lavere. Denne sømløse automatiseringen maksimerer den finansielle avkastningen for forbrukerne våre uten behov for manuell inngripen. Vircadi tilbyr en enestående mulighet til å lagre energi og utnytte markedsdynamikken for de best mulige resultatene, noe som forbedrer både effektivitet og lønnsomhet for brukerne våre.",
+      "text1": "Vircadi revolusjonerer energistyring ved intelligent lagring av energi samtidig som den selvstendig håndterer energiforbruk, salg og kjøp av elektrisitet til optimale priser. Denne innovative løsningen utnytter avanserte AI-algoritmer.",
+      "text2": "for å sikre at energi forbrukes fra lagringen, og potensielt selges, i perioder med høy etterspørsel, typisk om kvelden, i stedet for i løpet av dagen når prisene er lavere. Dette automatiserte systemet maksimerer den økonomisk avkastning for våre forbrukere uten behov for manuell kontroll. Vircadi tilbyr en enestående evne til å lagre energi og utnytte markedet for best mulige resultater.",
       "cta": "Kom i gang i dag"
     },
     "info": {
@@ -45,8 +45,8 @@
     },
     "contact": {
       "sub": "Ta kontakt i dag",
-      "title": "Stopp energisløsing med vår løsning i dag",
-      "text": "Vårt sanntids energistyringssystem maksimerer din investering. Spar penger, bli mer uavhengig og optimaliser energiforbruket ditt med intelligent automasjon.",
+      "title": "Bidra til en grønnere fremtid ved å benytte deg av Vircadi’s løsninger i dag.",
+      "text": "Vårt system for umiddelbar energistyring maksimerer din investering. Spar penger, oppnå uavhengighet og optimaliser din energibruk med intelligent automatisering.",
       "cta": "Spar energi i dag"
     }
   },

@@ -27,14 +27,14 @@ const Language = () => {
       >
         <div className={style.flag}>
           <Image
-            src={localeMatch ? UK : NO}
+            src={localeMatch ? NO : UK}
             alt={localeMatch ? 'English' : 'Norsk'}
             fill
             placeholder="blur"
             sizes="100vw"
           />
           <Image
-            src={localeMatch ? NO : UK}
+            src={localeMatch ? UK : NO}
             alt={localeMatch ? 'English' : 'Norsk'}
             fill
             className={style.lastImage}
@@ -43,7 +43,7 @@ const Language = () => {
           />
         </div>
 
-        <div className={style.tooltip}>{localeMatch ? 'English' : 'Norsk'}</div>
+        <div className={style.tooltip}>{localeMatch ? 'Norsk' : 'English'}</div>
       </div>
 
       {/* Mobile */}

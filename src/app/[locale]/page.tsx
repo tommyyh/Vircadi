@@ -11,9 +11,9 @@ const Home = async () => {
   return (
     <>
       <Landing l={l} />
-      <Partners l={l} />
-      <Product l={l} />
+      {/* <Partners l={l} /> */}
       <Info l={l} />
+      <Product l={l} />
       <Contact l={l} />
     </>
   );

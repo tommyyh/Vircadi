@@ -77,3 +77,23 @@
   }
 
 }
+
+
+
+// Tablet
+@media (min-width: 700px) and (max-width: 1024px) {
+  .img {
+    aspect-ratio: 1339/490;
+    height: auto;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+
+    svg {
+      transform: scale(1.35);
+    }
+  }
+  
+}

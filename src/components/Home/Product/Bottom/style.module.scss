@@ -74,3 +74,15 @@
   }
 
 }
+
+
+
+
+// Tablet
+@media (min-width: 700px) and (max-width: 1024px) {
+  .imgCont1 {
+    aspect-ratio: 606/445;
+    height: auto;
+  }
+  
+}
