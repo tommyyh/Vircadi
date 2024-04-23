@@ -8,46 +8,46 @@
     "links": {
       "home": "Home",
       "partners": "Our partners",
-      "product": "Our product",
+      "product": "Our product solutions",
       "contact": "Contact us"
     }
   },
   "home": {
     "landing": {
       "sub": "Energy managment system ⚡",
-      "title": "<span>Stop</span> Wasting Energy With Real-Time Power Control",
-      "text": "Our real-time energy management system maximizes your investment. Save money, gain independence, and optimize your energy use with intelligent automation.",
-      "cta": "Save energy today"
+      "title": "<span>Reduce</span> Your Electricity Bill With Vircadi's  Real-Time Power Control",
+      "text": "Vircadi's real-time energy management system maximizes your investment. Save money, gain independence, and optimize your energy use with intelligent automation.",
+      "cta": "Save money today"
     },
     "partners": {
       "title": "Our trusted partners"
     },
     "product": {
-      "sub": "Our product",
+      "sub": "Our product solutions",
       "title": "<span>Vircadi’s Energy</span> Management System",
       "text1": "Vircadi revolutionizes energy management by intelligently storing energy while autonomously managing energy for consumption, selling and buying electricity at optimal prices. This innovative solution leverages advanced AI algorithms",
-      "text2": "to ensure that energy is consumed from storage, and potentially sold, during peak demand periods, typically at night, rather than during daytime hours when prices are lower. This seamless automation maximizes financial returns for our consumers without requiring manual intervention. Vircadi is offering an unparalleled capability to store energy and exploit market dynamics for the best possible outcomes, enhancing both efficiency and profitability for our users.",
+      "text2": "to ensure that energy produced by solar panels is stored when the price is low, stored energy is consumed, and potentially sold, during peak demand periods, typically at night, rather than during daytime hours when prices are lower. This seamless automation maximizes financial returns for our consumers without requiring manual intervention. Vircadi is offering an unparalleled capability to store energy and exploit market dynamics for the best possible outcomes, enhancing both efficiency and profitability for our users.",
       "cta": "Get started today"
     },
     "info": {
       "sub": "System compatibility",
-      "title": "Our Managment System Supports Various Devices",
+      "title": "Our Managment System Supports Various Devices & Systems",
       "info1": {
         "1": "Public grids",
         "2": "Battery storages",
         "3": "IoT smart homes"
       },
       "info2": {
-        "1": "V2X EV charging",
-        "2": "Solar / PV Inverter",
+        "1": "Solar / PV Inverter",
+        "2": "V2X EV charging",
         "3": "and more"
       }
     },
     "contact": {
       "sub": "Get In Touch Today",
-      "title": "Join a greener world, start using Vircadi solutions today.",
+      "title": "Save Money and join a greener world, start using Vircadi solutions today.",
       "text": "Our real-time energy management system maximizes your investment. Save money, gain independence, and optimize your energy use with intelligent automation.",
-      "cta": "Save energy today"
+      "cta": "Save money today"
     }
   },
   "contact": {
@@ -71,7 +71,7 @@
     "links": {
       "1": "Home",
       "2": "Our partners",
-      "3": "Our product",
+      "3": "Our product solutions",
       "4": "Contact us"
     },
     "info": {

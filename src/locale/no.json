@@ -8,46 +8,46 @@
     "links": {
       "home": "Hjem",
       "partners": "Våre samarbeidspartnere",
-      "product": "Vårt produkt",
+      "product": "Vårt produktløsninger",
       "contact": "Kontakt oss"
     }
   },
   "home": {
     "landing": {
       "sub": "Energistyringssystem ⚡",
-      "title": "<span>Optimaliser</span> energiforbruket ditt med Vircadi",
-      "text": "Med vårt energistyringssystem oppnår du optimal avkastning og total kontroll over energiforbruket ditt. Spar penger, oppnå uavhengighet, og optimaliser din energibruk med intelligent automatisering",
-      "cta": "Spar energi i dag"
+      "title": "<span>Reduser</span> strømregningen din med Vircadi's 'Real-time' energistyringssystem",
+      "text": "Med Vircadi's energistyringssystem oppnår du optimal avkastning og total kontroll over energiforbruket ditt. Spar penger, oppnå uavhengighet, og optimaliser din energibruk med intelligent automatisering.",
+      "cta": "Spar penger i dag"
     },
     "partners": {
       "title": "Våre samarbeidspartnere"
     },
     "product": {
-      "sub": "Vårt produkt",
+      "sub": "Vårt produktløsninger",
       "title": "<span>Vircadi's energi</span>styringssystem",
       "text1": "Vircadi revolusjonerer energistyring ved intelligent lagring av energi samtidig som den selvstendig håndterer energiforbruk, salg og kjøp av elektrisitet til optimale priser. Denne innovative løsningen utnytter avanserte AI-algoritmer",
-      "text2": "for å sikre at energi forbrukes fra lagringen, og potensielt selges, i perioder med høy etterspørsel, typisk om kvelden, i stedet for i løpet av dagen når prisene er lavere. Dette automatiserte systemet maksimerer den økonomisk avkastning for våre forbrukere uten behov for manuell kontroll. Vircadi tilbyr en enestående evne til å lagre energi og utnytte markedet for best mulige resultater.",
+      "text2": "for å sikre at overskuddsenergi produsert fra solcellene lagres når prisen er lav, lagret energi forbrukes, og potensielt selges, i perioder med høy etterspørsel, typisk om kvelden, i stedet for i løpet av dagen når prisene er lavere. Dette automatiserte systemet maksimerer den økonomisk avkastning for våre forbrukere uten behov for manuell kontroll. Vircadi tilbyr en enestående evne til å lagre energi og utnytte markedet for best mulige resultater.",
       "cta": "Kom i gang i dag"
     },
     "info": {
       "sub": "Systemkompatibilitet",
-      "title": "Vårt styringssystem støtter forskjellige enheter",
+      "title": "Vårt styringssystem støtter forskjellige enheter og systemer",
       "info1": {
         "1": "Offentlige nett",
         "2": "Batterilagring",
         "3": "IoT smarthjem"
       },
       "info2": {
-        "1": "V2X lading av elbil",
-        "2": "Sol-/PV-inverter",
+        "1": "Sol-/PV-inverter",
+        "2": "V2X lading av elbil",
         "3": "og mer"
       }
     },
     "contact": {
       "sub": "Ta kontakt i dag",
-      "title": "Bidra til en grønnere fremtid ved å benytte deg av Vircadi’s løsninger i dag.",
+      "title": "Spar penger og bidra til en grønnere fremtid ved å benytte deg av Vircadi’s løsninger i dag.",
       "text": "Med vårt energistyringssystem oppnår du optimal avkastning og total kontroll over energiforbruket ditt. Spar penger, oppnå uavhengighet, og optimaliser din energibruk med intelligent automatisering",
-      "cta": "Spar energi i dag"
+      "cta": "Spar penger i dag"
     }
   },
   "contact": {
@@ -71,7 +71,7 @@
     "links": {
       "1": "Hjem",
       "2": "Våre samarbeidspartnere",
-      "3": "Vårt produkt",
+      "3": "Vårt produktløsninger",
       "4": "Kontakt oss"
     },
     "info": {
